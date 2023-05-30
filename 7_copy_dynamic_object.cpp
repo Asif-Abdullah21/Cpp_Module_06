@@ -25,7 +25,7 @@ int main()
     *masud = *asif;  // asif er pura object tule masud a copy kora hocche // tai asif delete krleu masud er moddhe theke jaua asif er value gulo masud k diye access krte parbo
     delete asif;
 
-    cout << masud->name << " " <<masud->age << endl;
+    cout << masud->name << " " <<masud->age << endl; // dynamic object, tai -> diye access korte hoy //
 
 
      
